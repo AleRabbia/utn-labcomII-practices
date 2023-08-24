@@ -25,10 +25,10 @@
         <!-- Contenedor principal -->
         <main>
             <section>
-                <h2>Lorum Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat.</p>
+                <h2>Noticias Ahora!</h2>
+                <p>Próximo parcial de TUP 4 será el próximo jueves
+                    a las 18 hs
+                    Materia: Estadisticas.</p>
             </section>
             <section>
                 <h2>Lo de nunca:</h2>
@@ -39,16 +39,24 @@
                 <p>Fulbito de la TUP a las 19hs</p>
             </section>
         </main>
-            
+
         <div class="right">
             <h2>Info</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>La hora actual es:</p>
+            <div id="current_date">
+                </p>
+                <script>
+                    document.getElementById("current_date").innerHTML = Date();
+                </script>
+                <p>Temperatura:</p>
+                <p>Humedad:</p>
+                <p>Clima:</p>
+            </div>
         </div>
-    </div>
-    <!-- Pie de Página-->
-    <footer>
-        <p>© copyright labcomII.com</p>
-    </footer>
+        <!-- Pie de Página-->
+        <footer>
+            <p>© copyright labcomII.com</p>
+        </footer>
 </body>
 
 </html>
